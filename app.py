@@ -13,5 +13,5 @@ def trigger_click():
 
     return jsonify({"status": "success", "message": "Click triggered in civeIA backend"}), 200
 
-if __cive__ == '__main__':
+if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
